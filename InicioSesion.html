@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciar sesión</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		input[type="text"], input[type="password"] {
+			margin: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			font-size: 16px;
+			width: 300px;
+			max-width: 100%;
+		}
+
+		input[type="submit"] {
+			margin: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #007bff;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			width: 300px;
+			max-width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<label for="username">Nombre de usuario:</label>
+		<input type="text" id="username" name="username" required>
+
+		<label for="password">Contraseña:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="submit" value="Iniciar sesión">
+	</form>
+</body>
+</html>
